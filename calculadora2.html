@@ -19,8 +19,14 @@
         <input type="decimal" id="numero2" placeholder="0.00"> <br>
         <label for="">Ingrese la operación</label> <br>
         <input type="decimal" id="operacion" placeholder="+  -  /  *"> <br>
+        <select id="select">
+            <option value="+">Suma</option>
+            <option value="-">Resta</option>
+            <option value="*">Multiplicacion</option>
+            <option value="/">Division</option>
+        </select>
     </div> <br>
-    <button onclick="Operacion(numero1.value, numero2.value, operacion.value)">=</button>
+    <button onclick="Operacion(numero1.value, numero2.value, operacion.value, select.value)">=</button>
     <div id="resultado"></div>
 
     <script src="main.js"></script>

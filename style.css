@@ -49,3 +49,10 @@ h2{
     font-family: fantasy;
     font-size: 30px;
 }
+select{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}

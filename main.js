@@ -54,3 +54,28 @@ function Operacion(numero1, numero2, operacion){
     document.getElementById("resultado").innerHTML = resultado
 
 }
+
+function Operacion(numero1, numero2, operacion, select){
+    num1 = parseFloat(numero1);
+    num2 = parseFloat(numero2);
+    switch(select) {
+        case "+":
+            resultado = num1 + num2;
+            break;
+        case "-":
+            resultado = num1 - num2;
+            break;
+        case "*":
+            resultado = num1 * num2;
+            break;
+        case "/":
+            resultado = num1 / num2;
+            break;
+        default:
+            resultado = "Operacion NO válida";
+        
+    }
+
+    document.getElementById("resultado").innerHTML = resultado
+
+}
