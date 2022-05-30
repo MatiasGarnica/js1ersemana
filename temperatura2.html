@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="">Ingrese la temperatura del día de hoy</label> <br>
+        <input type="decimal" id="temperature" placeholder="0.00">
+    </div>
+    <button onclick="daytemperature(temperature.value)">Aceptar</button>
+    <div id="diatemperatura"></div>
+
+    <script>
+        function daytemperature(temperature){
+          
+            num = parseFloat(temperature);
+
+            if (16 >= num > 0) {
+                mensaje = "Esta fresco"
+            }
+            else if (num > 16) {
+                mensaje = "Dia hermoso"
+            }
+            else if (num < 0) {
+                mensaje = "Mucho frio"
+            }
+            else {
+                mensaje = "No se ingreso el dato"
+            }
+            document.getElementById("diatemperatura").innerHTML = mensaje;
+        }
+
+    </script>
+</body>
+</html>

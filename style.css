@@ -1,0 +1,51 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    background: url(Fondo2.png) 100%;
+    background-size: cover;
+
+}
+
+button{
+    background-color: #555555;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 2px 2px;
+    border-radius: 4px;
+    border: 2px solid #2ab4cf;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 2px 4px rgb(21, 155, 213) ;
+    background-color: black;
+}
+button:active{
+    transform: translateY(4px);
+}
+
+#resultado {
+    background-color: rgb(19, 171, 171);
+    margin: 0px 40%;
+    padding: 5px 5px;
+    border: 2px solid royalblue;
+    display: block;
+    color: rgb(255, 255, 255);
+    
+}
+header{
+    background-color: #363333;
+    margin: auto;
+    padding: 2em 2em;
+    color: aliceblue;
+    
+}
+h2{
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    font-family: fantasy;
+    font-size: 30px;
+}

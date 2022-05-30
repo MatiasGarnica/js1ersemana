@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>CALCULADORA</h2>
+    </header>
+    <div class="Texto">
+        
+        <label for="">Ingrese el Número de la operación</label> <br>
+        <input type="decimal" id="numero1" placeholder="0.00"> <br>
+        <label for="">Ingrese el Segundo Número de la operación</label> <br>
+        <input type="decimal" id="numero2" placeholder="0.00"> <br>
+        <label for="">Ingrese la operación</label> <br>
+        <input type="decimal" id="operacion" placeholder="+  -  /  *"> <br>
+    </div> <br>
+    <button onclick="Operacion(numero1.value, numero2.value, operacion.value)">=</button>
+    <div id="resultado"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
